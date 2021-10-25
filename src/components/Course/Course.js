@@ -8,8 +8,8 @@ const Course = (props) => {
     
     return (
         <div className="col mt-5">
-            <div className="card h-100" style={{"width": "16rem"}}>
-            <img src={img} style={{"height":"150px"}} className="card-img-top" alt="..."/>
+            <div className="card h-100" style={{"width": "auto"}}>
+            <img src={img} style={{"height":"200px"}} className="card-img-top" alt="..."/>
             <div className="card-body">
                 <h5 className="card-title">{courseName}</h5>
                 <p className="card-text">Price: ${price}</p>

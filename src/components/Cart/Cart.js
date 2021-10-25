@@ -22,7 +22,7 @@ const Cart = () => {
     }
 
     return (
-        <div className="row container cart">
+        <div className="row container cart mx-auto">
             <div className="col-md-9">
                 <div className="row row-cols-md-2 g-2 mt-4">
                 {

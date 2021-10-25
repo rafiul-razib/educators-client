@@ -25,7 +25,7 @@ const Home = (props) => {
 
             <div className="row  row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 container mx-auto">
                 <div className="col">
-                    <div className="card text-white bg-dark mb-3 h-100" style={{"maxWidth": "18rem"}}>
+                    <div className="card text-white bg-dark mb-3 h-100 thumb" style={{"maxWidth": "18rem"}}>
                     <div className="card-body">
                         <h2 className="card-title"><FontAwesomeIcon icon={faDoorOpen}/> Online Courses</h2>
                         <p className="card-text">View more</p>
@@ -33,7 +33,7 @@ const Home = (props) => {
                     </div>
                 </div>
                 <div className="col">
-                <div className="card text-white bg-dark mb-3  h-100" style={{"maxWidth": "18rem"}}>
+                <div className="card text-white bg-dark mb-3  h-100 thumb" style={{"maxWidth": "18rem"}}>
                     <div className="card-body">
                         <h2 className="card-title"><FontAwesomeIcon icon={faBookOpen}/> Our Open Library</h2>
                         <p className="card-text">View more</p>
@@ -41,7 +41,7 @@ const Home = (props) => {
                     </div>
                 </div>
                 <div className="col">
-                <div className="card text-white bg-dark mb-3  h-100" style={{"maxWidth": "18rem"}}>
+                <div className="card text-white bg-dark mb-3  h-100 thumb" style={{"maxWidth": "18rem"}}>
                     <div className="card-body">
                         <h2 className="card-title"><FontAwesomeIcon icon={faChalkboardTeacher}/> Our Friendly Teachers</h2>
                         <p className="card-text">View more</p>
@@ -53,7 +53,7 @@ const Home = (props) => {
          </div>
 
             <div>
-                <div className="popular-courses">
+                <div className="popular-courses container">
                 <h2>Popular Courses</h2>
                 </div>
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4 mx-auto">

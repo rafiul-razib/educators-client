@@ -41,7 +41,7 @@ function App() {
         <Route path = "/cart">
           <Cart></Cart>
         </Route>
-        <Route path = "/*">
+        <Route path = "*">
           <NotFound></NotFound>
         </Route>
       </Switch>
