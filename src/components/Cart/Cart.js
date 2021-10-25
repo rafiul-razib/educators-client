@@ -22,6 +22,8 @@ const Cart = () => {
     }
 
     return (
+
+        // Show added items to cart by getting cart from context api
         <div className="row container cart mx-auto">
             <div className="col-md-9">
                 <div className="row row-cols-md-2 g-2 mt-4">
@@ -30,6 +32,8 @@ const Cart = () => {
                 }
                 </div>
             </div>
+
+            {/* Cart calculations */}
             <div className="col-md-3 mt-5 me-auto cart-area">
                 <h3>Course Ordered: {cart.length}</h3>
                 <br />

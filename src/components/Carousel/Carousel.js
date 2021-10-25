@@ -5,6 +5,7 @@ import img3 from '../../images/img3.jpg'
 
 const Carousel = () => {
     return (
+        // Card header carousel
         <div>
             <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">

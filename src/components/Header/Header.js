@@ -8,6 +8,7 @@ import {faSchool } from '@fortawesome/free-solid-svg-icons'
 const Header = (props) => {
     const cart = props.cart
     return (
+        // Header component
         <div className="header">
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container">

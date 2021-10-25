@@ -3,6 +3,7 @@ import './About.css'
 
 const About = () => {
     return (
+        // About component
         <div className="about mx-auto">
             <h1>We Educate...</h1>
             <br />
