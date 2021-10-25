@@ -7,9 +7,9 @@ import {faSchool } from '@fortawesome/free-solid-svg-icons'
 
 const Header = () => {
     return (
-        <div className="container header">
+        <div className="header">
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <div className="container-fluid">
+            <div className="container">
                 <NavLink className="navbar-brand" to="/"><FontAwesomeIcon icon={faSchool}/> educators.com</NavLink>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
