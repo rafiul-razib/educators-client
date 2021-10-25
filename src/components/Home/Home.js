@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faDoorOpen, faBookOpen, faChalkboardTeacher } from '@fortawesome/free-solid-svg-icons'
 import Course from '../Course/Course';
 import useCourses from '../hooks/useCourses';
+import Carousel from '../Carousel/Carousel'
 
 
 
@@ -15,10 +16,10 @@ const Home = (props) => {
     const handleAddToCart = props.handleAddToCart;
 
     return (
-        <div className="container home">
-         
+        <div className="home">
+            <Carousel></Carousel>
          <div>
-            <div className= "intro">
+            <div className= "container intro">
                 <h1>Get Your Education Today</h1>
             </div>
 
