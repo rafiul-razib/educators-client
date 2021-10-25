@@ -1,0 +1,9 @@
+.all-courses{
+    margin-top: 50px;
+    color: white;
+    display: block;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0.9;
+}

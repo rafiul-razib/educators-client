@@ -2,8 +2,19 @@
     margin-top: 250px;
     margin-bottom: 50px;
     color: white;
+    display: block;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0.9;
 }
 
 .popular-courses{
     margin-top: 200px;
+    color: white;
+    display: block;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0.9;
 }

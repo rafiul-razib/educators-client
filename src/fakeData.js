@@ -62,4 +62,25 @@ const data = [
         img: "https://img-c.udemycdn.com/course/480x270/1151632_de9b.jpg"
         
     },
+    {
+        key: 10,
+        courseName: "Productivity and Time Management",
+        price: 11.9,
+        img: "https://img-c.udemycdn.com/course/480x270/655608_270e_4.jpg"
+        
+    },
+    {
+        key: 11,
+        courseName: "Self Confidence",
+        price: 11.5,
+        img: "https://img-c.udemycdn.com/course/480x270/989196_01e2_3.jpg"
+        
+    },
+    {
+        key: 12,
+        courseName: "Emotional Intelligence",
+        price: 11.5,
+        img: "https://img-c.udemycdn.com/course/480x270/1119356_9abd_2.jpg"
+        
+    }
 ]

@@ -1,8 +1,5 @@
-.banner {
+.App{
   text-align: center;
   background-image: url(./images/neonbrand-zFSo6bnZJTw-unsplash.jpg);
-  background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
-  height: 700px;
 }
