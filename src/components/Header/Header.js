@@ -5,7 +5,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faSchool } from '@fortawesome/free-solid-svg-icons'
 
 
-const Header = () => {
+const Header = (props) => {
+    const cart = props.cart
     return (
         <div className="header">
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -19,7 +20,7 @@ const Header = () => {
                     <NavLink className="link" exact to="/">Home</NavLink>
                     <NavLink className="link" to="/services">Services</NavLink>
                     <NavLink className="link" to="/about">About</NavLink>
-                    <NavLink className="link" to="/cart">Cart</NavLink>
+                    <NavLink className="link" to="/cart">Cart<sup className="addedItem">{cart.length}</sup></NavLink>
                   
                 </nav>
                 </div>

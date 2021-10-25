@@ -27,7 +27,7 @@ function App() {
     <cartContext.Provider value = {cart}>
       <div className="App">
       <BrowserRouter>
-      <Header></Header>
+      <Header cart ={cart}></Header>
       <Switch>
         <Route exact path = "/">
           <Home handleAddToCart={handleAddToCart}></Home>
